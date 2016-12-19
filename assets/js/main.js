@@ -166,11 +166,18 @@
 })(jQuery);
 
 
-$('#banner, #backtotop').on('click', function(e){
+$('#backtotop').on('click', function(e){
     e.preventDefault();
-    var target= $(this).get(0).id == 'backtotop' ? $('#banner') : $('#backtotop');
+    var target= $('#banner');
     $('html, body').stop().animate({
        scrollTop: target.offset().top
     }, 1000);
 });
 
+$('#totop').on('click', function(e){
+    e.preventDefault();
+    var target= $('#top');
+    $('html, body').stop().animate({
+       scrollTop: target.offset().top
+    }, 1000);
+});
