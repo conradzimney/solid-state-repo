@@ -1705,6 +1705,14 @@
 		a:hover {
 			border-bottom-color: transparent;
 			color: #ffffff !important;
+			text-decoration: none !important;
+		}
+		
+		a:visited {
+			text-decoration: none !important;
+			color: inherit !important;
+			text-shadow: inherit !important;
+			background: inherit !important;
 		}
 
 		a.special:not(.button) {
@@ -3703,3 +3711,11 @@
 		}
 
 	}
+	
+	/* CUSTOM MODAL CSS */
+	
+	.modal-content {
+		margin-top: 20%;
+	}
+	
+	

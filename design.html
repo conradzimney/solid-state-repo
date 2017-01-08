@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/design.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -71,25 +72,25 @@
 											<img src="images/infographic.png" alt="" class="image" style="max-height:203px;"/>
 											<h3 class="major">Infographic Design and Development</h3>
 											<p>Designed an infographic using modern methods of displaying visual information, using Adobe Illustrator.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#infoModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/mobile.jpg" class="image" alt="" style="max-height:203px;"/>
 											<h3 class="major">Mobile App Prototype</h3>
 											<p>Designed a Mobile App in a team of 4 for helping disabled users navigate indoor spaces.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#mobileModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/ux.jpg" class="image" alt="" style="max-height:203px;"/>
 											<h3 class="major">User Experience Mobile App Prototype</h3>
 											<p>Designed a Mobile App using rudimental design methods of sketching, user testing, and iteration.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#uxModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/vr.png" class="image" alt="" style="max-height:203px;"/>
 											<h3 class="major">Echo - iSchool Capstone Design</h3>
 											<p>Design work for Informatics Capstone project 2016.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#echoModal">Learn more</a>
 										</article>
 									</section>
 
@@ -119,13 +120,81 @@
 							</ul>
 						</div>
 					</section>
-
 			</div>
+		
+		<!-- INFOGRAPHIC Modal -->
+		<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Infographic Design and Development</h3>
+					</div>
+					<div class="modal-body">
+						<p>Designed and created an infographic using modern techniques for displaying visual information through appearance, location, time, numbers, relationships, and layout. Utilized different visual models throughout the design process for color, typography, and visual language. Deployed the stages of prototyping and design processes to a wix.com website that can be found <a href="http://conradzimney.wixsite.com/infovis-2016/models">here</a>!</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Mobile Prototype Modal -->
+		<div class="modal fade" id="mobileModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Mobile Application Prototype</h3>
+					</div>
+					<div class="modal-body">
+						<p>Worked in a team of 4 to design and prototype an Indoor Navigation Mobile Application. We conducted user interviews, sketching, ideation, paper prototyping, user testing, and iterative prototyping in order to design for our unique user’s needs. Full documentation of the design process can be found in our <a href=assets/documents/Process-Book.pdf target=“_blank”>Process Book</a>.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- UX Modal -->
+		<div class="modal fade" id="uxModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">User Experience Mobile App Prototype</h3>
+					</div>
+					<div class="modal-body">
+						<p>Worked in a team of 2 to design and prototype a Mobile Application for a cruise line company (Carnival Cruises). We conducted user interviews, sketching, ideation, paper prototyping, user testing, and iterative prototyping in order to design for different sets of users that might use our application. We used Invision to create a clickable prototype using our paper prototype’s screens, and conducted user testing using the clickable web prototype. Our clickable paper prototype can be found <a href=“https://projects.invisionapp.com/share/XP4C7E1QA#/screens” target=“_blank”>here</a>.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- ECHO DESIGN Modal -->
+		<div class="modal fade" id="echoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Echo - iSchool Capstone Design</h3>
+					</div>
+					<div class="modal-body">
+						<p>In order to create a three dimensional virtual reality tool for sound engineers, we needed to conduct a significant amount of research to design the proper tool. Designing a virtual reality application is newly charted territory and does not have the same sort of standards that regular mobile app design processes possess. Full documentation of the design process can be found in our <a href=assets/documents/Design-Documentation.pdf target=“_blank”>Design Documentation</a>.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/modal.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>

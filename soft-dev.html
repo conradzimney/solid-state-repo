@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/soft-dev.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -72,25 +73,24 @@
 											<img src="images/mulesoft.png" alt="" class="image" style="max-height:153px;"/>
 											<h3 class="major">Extended Enterprise Management</h3>
 											<p>Fulltime Mulesoft Developer on agile team replacing Cisco's legacy B2B IT system for Technical Services.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#eemModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/vr-echo.jpg" alt="" class="image" style="max-height:153px;"/>
 											<h3 class="major">Echo - iSchool Capstone</h3>
 											<p>Undergraduate Informatics culminating Capstone Project: Virtual Reality iOS Mobile App & Website.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#echoModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/swift.jpeg" alt="" class="image" style="max-height:153px;"/>
 											<h3 class="major">iOS Mobile Application</h3>
 											<p>Developed a Mobile App to help teach young children how to spell using XCode and Swift.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#iosModal">Learn more</a>
 										</article>
 									</section>
 
 								</div>
 							</div>
-
 					</section>
 
 				<!-- Footer -->
@@ -114,13 +114,64 @@
 							</ul>
 						</div>
 					</section>
-
 			</div>
+			
+		<!-- EEM Modal -->
+		<div class="modal fade" id="eemModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Extended Enterprise Management (Cisco)</h3>
+					</div>
+					<div class="modal-body">
+						<p>Collaborated on a dynamic Agile team as a Software Engineer and Quality Assurance Tester to develop a new B2B solution for Cisco’s existing legacy B2B system (Tibco). Coded multiple different Mule applications using XML, Mule, and Java, configured ESB specifications in Mulesoft Anypoint ESB Platform. This new global system will increase efficiency of logistics, visibility of processing of transactions worldwide, and increase scalability of system by moving to a cloud-based platform.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<!-- ECHO Modal -->
+		<div class="modal fade" id="echoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Echo - iSchool Capstone</h3>
+					</div>
+					<div class="modal-body">
+						<p>Echo is an interactive sound visualization tool, designed to help students learn about sound design and audio engineering. Currently, students do not have the resources that they need in order to learn about audio engineering and acoustic environments. Most modern sound visualization tools are proprietary and require industry knowledge to discern meaning from them. Echo aims to help teachers keep their students interested and engaged in learning about sound design concepts by implementing a unique approach to sound visualization. We discovered that virtual reality is the ultimate medium to immerse someone in an acoustic environment, and will promote the highest level of understanding in all of our users. Our goal is to lower the barrier of entry into the professional sound design and audio engineering industry. This will effectively enrich the knowledge pool in the industry, therefore leading to greater insight and discovery for acoustic designers on all levels.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- iOS Modal -->
+		<div class="modal fade" id="iosModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">iOS Mobile Application</h3>
+					</div>
+					<div class="modal-body">
+						<p>Designed and developed an iOS Mobile Application using Swift which attempts to help teach developing children how to spell. The application allows users to upload sets of words which their children can work through and earn achievements, in order to progress to harder sets of words. This application was developed in a team of 4 using Xcode and Swift, and was also developed using an agile process. </p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/modal.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>

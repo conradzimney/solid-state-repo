@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/data.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -73,26 +74,25 @@
 											<img src="images/oe.png" alt="" class="image" style="max-height:184px;"/>
 											<h3 class="major">Optimum Energy Data Assessment</h3>
 											<p>Performed a data architecture assessment and respective solution recommendations for a modern HVAC company.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#oeModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/powerpivot.jpg" alt="" class="image" style="max-height:184px;"/>
 											<h3 class="major">PowerPivot POC</h3>
 											<p>Conducted a series of PowerPivot Proof-of-Concept projects for different companies, demonstrating the value of the respective data solutions.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#pocModal">Learn more</a>
 										</article>
 										<article>
 											<img src="images/tableau.png" alt="" class="image" style="max-height:184px;"/>
 											<h3 class="major">Data Visualization Redesign and Development</h3>
 											<p>Developed an original, dynamic data visualization using Tableau for displaying NIST security assessment data.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="" class="special" data-toggle="modal" data-target="#tabModal">Learn more</a>
 										</article>
 										
 									</section>
 
 								</div>
 							</div>
-
 					</section>
 
 				<!-- Footer -->
@@ -116,13 +116,65 @@
 							</ul>
 						</div>
 					</section>
-
 			</div>
+			
+		<!-- OE Modal -->
+		<div class="modal fade" id="oeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Optimum Energy Data Assessment</h3>
+					</div>
+					<div class="modal-body">
+						<p>While I was an Intern on the Advanced Analytics team at West Monroe Partners in Seattle, I had the opportunity to collaborate on a team of 4 to analyze Optimum Energy’s (modern hi-tech HVAC company) current data models and processes, in order to provide an advanced data solution. I analyzed data models using data model diagrams, data flow diagrams, and database queries, and conducted research on leading data consolidation and integration technologies to provide the client with a robust data solution. </p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<!-- POWERPIVOT POC Modal -->
+		<div class="modal fade" id="pocModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">PowerPivot Proof of Concept</h3>
+					</div>
+					<div class="modal-body">
+						<p>While I was an Intern on the Advanced Analytics team at West Monroe Partners in Seattle, I had the opportunity to collaborate on a team of 3 to analyze a construction company's existing data model. We provided the client with a Proof of Concept project for potentially using PowerPivot as their data modeling strategy. We created a PowerPivot project using client data as well as dynamically generated fake data to show the utility of choosing PowerPivot as their data strategy.</p>
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- TABLEAU Modal -->
+		<div class="modal fade" id="tabModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="myModalLabel">Data Visualization Redesign and Development</h3>
+					</div>
+					<div class="modal-body">
+						<p>While I was an Intern on the Advanced Analytics team at West Monroe Partners in Seattle, I had the opportunity to redesign an NIST Security Assessment data visualization strategy in order to make it dynamic and scalable for future clients. I utilized Tableau to visualize large excel datasets that also required formatting and data manipulation for visualization. I used unique data manipulation strategies in Tableau in order to chart data onto a polar coordinate plane, to properly represent the data at hand. </p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><h3>Close</h3></button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/modal.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
