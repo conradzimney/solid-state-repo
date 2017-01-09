@@ -3715,7 +3715,42 @@
 	/* CUSTOM MODAL CSS */
 	
 	.modal-content {
-		margin-top: 20%;
+		background-color: #4c5c96;
+		margin-top: 15%;
 	}
+	
+	.modal-header {
+		text-align: center;
+		border-bottom: none;
+		padding: 25px;
+		/*
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
+		*/
+	}
+	
+	.modal-body {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+	.modal-footer {
+		border-top: none;
+		padding-top: none;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+	.line-separator{
+		height:1px;
+		width: 88%;
+		margin: auto;
+		background:#717171;
+		border-bottom:1px solid #bfbfbf;
+		opacity: 40%;
+	}
+	
 	
 	
